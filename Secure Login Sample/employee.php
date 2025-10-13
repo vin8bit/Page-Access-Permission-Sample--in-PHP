@@ -1,7 +1,7 @@
 <?php 
     ////////check session login///////////////////
     require_once'config.php';
-    session_start();;
+    session_start();
     if(isset($_SESSION['usertype'])){
         if($_SESSION['usertype'] == 'employee' || $_SESSION['usertype'] == 'admin'){
                 
